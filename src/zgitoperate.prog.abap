@@ -7,4 +7,5 @@ REPORT ZGITOPERATE.
 
 write :/2 ' This is first program from GIToperate'.
 
-write :/2 abc
+select * from MARA.
+endselect.
