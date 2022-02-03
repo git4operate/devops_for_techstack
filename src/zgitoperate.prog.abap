@@ -9,10 +9,12 @@ write :/2 ' This is first program from GIToperate'.
 
 Write :/2 ' Seciond line of code'.
 
-select * from Mara  
-endselect
-test
-xyz 
+write :/2 ' Add one more line of code '.
 
-heloo 
-whoa re 
+*select * from Mara
+*endselect
+*test
+*xyz
+*
+*heloo
+*whoa re
