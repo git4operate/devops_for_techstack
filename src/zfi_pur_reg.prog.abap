@@ -84,8 +84,4 @@ IF sy-subrc <> 0.
 ENDIF.
 
 
-* This code is added to check sonarcube
-tables : mara.
-select * from mara .
-ENDSELECT.  ,
 
