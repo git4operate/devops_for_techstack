@@ -87,4 +87,5 @@ ENDIF.
 * This code is added to check sonarcube
 tables : mara.
 select * from mara .
-ENDSELECT.
+ENDSELECT.  ,
+
