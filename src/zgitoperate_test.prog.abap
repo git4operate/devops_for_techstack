@@ -6,5 +6,3 @@
 REPORT ZGITOPERATE_TEST.
 
 WRITE :/2 'test program'.
-
-
