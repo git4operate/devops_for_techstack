@@ -5,4 +5,4 @@
 *&---------------------------------------------------------------------*
 REPORT ZGITOPERATE_TEST.
 
-WRITE :/2 'test program'.
+WRITE :/2 'test program-1'.
