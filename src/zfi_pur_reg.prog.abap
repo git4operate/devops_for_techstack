@@ -88,3 +88,5 @@ ENDIF.
 **tables : mara.
 **select * from mara .
 **ENDSELECT.
+
+write :/2 ' Great Code '.
