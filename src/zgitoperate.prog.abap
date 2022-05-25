@@ -3,18 +3,18 @@
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT ZGITOPERATE.
+REPORT zgitoperate.
 
-write :/2 ' This is first program from GIToperate'.
+WRITE :/2 ' This is first program from GIToperate'.
 
-Write :/2 ' Seciond line of code'.
+WRITE :/2 ' Seciond line of code'.
 
-write :/2 ' Add one more line of code '.
+WRITE :/2 ' Add one more line of code '.
 
-*select * from Mara
-*endselect
-*test
-*xyz
-*
-*heloo
-*whoa re
+SELECT * FROM Mara
+ENDSELECT
+TEST
+xyz
+
+heloo
+whoa re
