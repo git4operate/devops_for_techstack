@@ -4,5 +4,7 @@
 *&
 *&---------------------------------------------------------------------*
 REPORT ZGITOPERATE_TEST.
+select * from mara into @data(itab).
+  endselect.
 
 WRITE :/2 'test program-1'.
