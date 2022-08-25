@@ -4,7 +4,7 @@
 *&
 *&---------------------------------------------------------------------*
 REPORT ZGITOPERATE_TEST.
-select ernam from mara into @data(itab) where matnr = 000000000400000006.
-  endselect.
+*select ernam from mara into @data(itab) where matnr = 000000000400000006.
+*  endselect.
 
-WRITE : 'test program-1'.
+WRITE :/2 'test program-1'.
