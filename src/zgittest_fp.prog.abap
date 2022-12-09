@@ -5,3 +5,4 @@
 *&---------------------------------------------------------------------*
 REPORT ZGITTEST_FP.
 write: 'test program'.
+write: 'auto push test'.
