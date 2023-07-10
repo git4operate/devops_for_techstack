@@ -11,3 +11,4 @@ REPORT ZGITOPERATE_TEST_PARALLELDEV.
 *  endselect.
 WRITE /2 'update from SOlman'.
 WRITE /2 'update from S4D'.
+WRITE /2 'update from SOlman'.
