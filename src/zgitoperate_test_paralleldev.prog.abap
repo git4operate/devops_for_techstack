@@ -11,4 +11,4 @@ REPORT ZGITOPERATE_TEST_PARALLELDEV.
 *select * from mara into @data(itab1).
 *  endselect.
 WRITE /2 'Trying Merge from S4D'.
-WRITE /2 'Trying Merge from SOLMAN'.
+WRITE /2 'Trying Merge between S4D & Solman'.
