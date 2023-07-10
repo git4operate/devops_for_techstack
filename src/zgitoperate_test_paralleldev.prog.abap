@@ -10,8 +10,4 @@ REPORT ZGITOPERATE_TEST_PARALLELDEV.
 "new code below
 *select * from mara into @data(itab1).
 *  endselect.
-WRITE /2 'update from SOlman'.
-WRITE /2 'update from S4D'.
-WRITE /2 'update from SOlman'.
-
-
+WRITE /2 'Trying Merge from S4D'.
