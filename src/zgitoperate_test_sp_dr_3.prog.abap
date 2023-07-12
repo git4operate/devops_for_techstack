@@ -3,7 +3,7 @@
 *&---------------------------------------------------------------------*
 *&
 *&---------------------------------------------------------------------*
-REPORT ZGITOPERATE_TEST_SP_DR_2.
+REPORT ZGITOPERATE_TEST_SP_DR_3.
 select ernam from mara into @data(itab) where matnr = 000000000400000006.
   endselect.
 "new code below
