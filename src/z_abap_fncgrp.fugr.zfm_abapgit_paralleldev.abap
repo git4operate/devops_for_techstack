@@ -8,8 +8,8 @@ FUNCTION ZFM_ABAPGIT_PARALLELDEV.
 
 DATA(lo_obj) = NEW zcl_abapgit_paralleldev( LV_ANNUALINCOME = lv_income ).
 
-  WRITE : |Income tax amount is | & |{ lo_obj->incometax }|,
-          / |Monthly Take Home Amount is | & |{ lo_obj->monthlytakehome }|.
+  WRITE : |Income tax amount is INR | & |{ lo_obj->incometax }|,
+          / |Monthly Take Home Amount is INR | & |{ lo_obj->monthlytakehome }|.
   .
 
 
