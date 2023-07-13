@@ -29,7 +29,7 @@ CLASS ZCL_ABAPGIT_PARALLELDEV IMPLEMENTATION.
   method CALCULATE_INCOMETAX.
 
     incometax = annualincome * '0.32' .
-    incometax = incometax + ( incometax * '0.02' ).
+    incometax = incometax + ( incometax * '0.05' ).
 
   endmethod.
 
