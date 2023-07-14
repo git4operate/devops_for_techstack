@@ -19,11 +19,33 @@
        <REFERENCE>X</REFERENCE>
        <TYP>P</TYP>
       </RSIMP>
+      <RSIMP>
+       <PARAMETER>LV_UNITPRICE</PARAMETER>
+       <DEFAULT>100</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>P</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LV_DRUGTYPE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR3</TYP>
+      </RSIMP>
      </IMPORT>
      <DOCUMENTATION>
       <RSFDO>
        <PARAMETER>LV_INCOME</PARAMETER>
        <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LV_UNITPRICE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LV_DRUGTYPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>3-Byte field</STEXT>
       </RSFDO>
      </DOCUMENTATION>
     </item>
