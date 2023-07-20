@@ -60,7 +60,8 @@ CLASS ZCL_ABAPGIT_PARALLELDEV IMPLEMENTATION.
     IF drugtype EQ 'EQP'.
       mrp = unitprice + ( unitprice * '0.18' ).
     ELSE.
-      mrp = unitprice + ( unitprice * '0.12' ).
+      mrp = unitprice + ( unitprice * '0.02' ).
+
     ENDIF.
   ENDMETHOD.
 ENDCLASS.
