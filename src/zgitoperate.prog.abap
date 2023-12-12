@@ -14,10 +14,8 @@ WRITE :/2 ' Add one more line of code '.
 SELECT matnr FROM Mara into @data(lt_matnr) where ernam = 'rhawa' .
 ENDSELECT.
 
-
-SELECT * FROM Mara into @data(lt_matnr2).
+SELECT matnr FROM Mara into @data(lt_matnr2) where ernam = 'rhawa' .
 ENDSELECT.
-
 *TEST
 *xyz
 *
