@@ -14,7 +14,7 @@ WRITE :/2 ' Add one more line of code '.
 SELECT matnr FROM Mara into @data(lt_matnr) where ernam = 'rhawa' .
 ENDSELECT.
 "
-WRITE : /2 ' Code check should succeed '.
+WRITE :/2 ' Code check should succeed '.
 *TEST
 *xyz
 *
