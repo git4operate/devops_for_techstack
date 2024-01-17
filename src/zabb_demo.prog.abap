@@ -5,5 +5,5 @@
 *&---------------------------------------------------------------------*
 REPORT ZABB_DEMO.
 write:'hello ABB team'.
-select matnr from mara into @data(lv_mara) where matnr ne '27'.
+select * from mara into @data(lv_mara).
   ENDSELECT.
