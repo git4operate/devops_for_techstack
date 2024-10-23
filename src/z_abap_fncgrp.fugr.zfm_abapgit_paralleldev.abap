@@ -16,6 +16,6 @@ DATA(lo_obj2) = NEW zcl_abapgit_paralleldev( lv_drugtype = lv_drugtype  LV_UNITP
           / |Monthly Take Home Amount is INR | & |{ lo_obj->monthlytakehome }|,
   /  |MRP of the Drug is INR | & |{ lo_obj2->mrp }|.
   .
-  WRITE : |GST and tax,consession,money_testingagain|.
+  WRITE : |GST and tax,consession,money_testingflow|.
 
 ENDFUNCTION.
