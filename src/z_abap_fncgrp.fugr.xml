@@ -8,7 +8,47 @@
     <SOBJ_NAME>SAPLZ_ABAP_FNCGRP</SOBJ_NAME>
    </INCLUDES>
    <FUNCTIONS>
-    
+    <item>
+     <FUNCNAME>ZFM_ABAPGIT_PARALLELDEV</FUNCNAME>
+     <SHORT_TEXT>FM For Parallel Development</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>LV_INCOME</PARAMETER>
+       <DEFAULT>100000</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>P</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LV_UNITPRICE</PARAMETER>
+       <DEFAULT>100</DEFAULT>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>P</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>LV_DRUGTYPE</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <REFERENCE>X</REFERENCE>
+       <TYP>CHAR3</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>LV_INCOME</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LV_UNITPRICE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>LV_DRUGTYPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>3-Byte field</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
     <item>
      <FUNCNAME>ZFM_ABAPGIT_PARALLELDEV_NEOM</FUNCNAME>
      <SHORT_TEXT>FM For Parallel Development</SHORT_TEXT>
@@ -91,7 +131,6 @@
       </RSFDO>
      </DOCUMENTATION>
     </item>
-
    </FUNCTIONS>
   </asx:values>
  </asx:abap>
